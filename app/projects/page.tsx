@@ -20,10 +20,6 @@ import caresyncimage from '../../public/caresync.png';
 import randomMessage from '../../public/true feedback.png';
 import musicAcademy from '../../public/music academy.png';
 import cabflowImage from '../../public/cabflow.png'
- const metadata: Metadata = {
-  title: 'Projects – Sushil Sagar',
-  description: 'A showcase of software and ML projects built by Sushil Sagar.',
-};
 
 const projects = [
   {

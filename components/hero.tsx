@@ -3,7 +3,8 @@
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import photo from '../public/photo.jpg'
+import photo from '../public/photo.jpg';
+import Link from 'next/link';
 export default function Hero() {
   return (
     <section className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-12 bg-background mt-8">
@@ -32,11 +33,11 @@ export default function Hero() {
             </Button>
           </motion.div>
           <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
-            <a href="/#contact">
-               <Button variant="outline">
-                Contact Me
-          </Button>
-           </a>
+           <Link href="/#contact" passHref>
+            <Button variant="outline">
+              Contact Me
+            </Button>
+          </Link>
       </motion.div>
         </div>
       </motion.div>
