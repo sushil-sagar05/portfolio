@@ -19,14 +19,11 @@ export default function About() {
       id="about"
       className="relative py-20 lg:py-32 px-6 lg:px-8 bg-gradient-to-b from-white via-gray-50 to-white dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 overflow-hidden"
     >
-      {/* Background decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-r from-blue-400/8 to-purple-400/8 rounded-full blur-3xl" />
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-r from-green-400/8 to-blue-400/8 rounded-full blur-3xl" />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-purple-400/5 to-pink-400/5 rounded-full blur-3xl" />
       </div>
-
-      {/* Grid pattern overlay */}
       <div className="absolute inset-0 opacity-20">
         <div
           className="w-full h-full"
@@ -41,7 +38,6 @@ export default function About() {
       </div>
 
       <div className="relative z-10 max-w-6xl mx-auto">
-        {/* Header Section */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -65,11 +61,7 @@ export default function About() {
             Passionate developer crafting intelligent solutions that bridge technology and human needs.
           </p>
         </motion.div>
-
-        {/* Main Content Grid */}
         <div className="grid lg:grid-cols-3 gap-8 lg:gap-12 mb-16">
-          
-          {/* Main Story Card */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -89,7 +81,7 @@ export default function About() {
                 </div>
 
                 <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                  I'm <span className="font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Sushil Sagar</span>, a
+                  I&apos;m <span className="font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Sushil Sagar</span>, a
                   Computer Science undergraduate passionate about building intelligent,
                   scalable web systems. I specialize in crafting end-to-end applications
                   integrating full-stack engineering with machine learning.
@@ -115,14 +107,12 @@ export default function About() {
 
                 <div className="pt-6 border-t border-gray-200 dark:border-gray-700">
                   <p className="text-xl font-semibold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
-                    Let's build something meaningful together.
+                    Let&apos;s build something meaningful together.
                   </p>
                 </div>
               </div>
             </Card>
           </motion.div>
-
-          {/* Side Info Cards */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -130,7 +120,6 @@ export default function About() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="space-y-6"
           >
-            {/* Values Card */}
             <Card className="p-6 bg-gradient-to-br from-green-50 to-blue-50 dark:from-green-900/20 dark:to-blue-900/20 border border-green-200 dark:border-green-800 hover:shadow-lg transition-all duration-300">
               <div className="flex items-center gap-3 mb-4">
                 <Heart className="w-5 h-5 text-green-600 dark:text-green-400" />
@@ -155,8 +144,6 @@ export default function About() {
                 </li>
               </ul>
             </Card>
-
-            {/* Current Focus Card */}
             <Card className="p-6 bg-gradient-to-br from-orange-50 to-red-50 dark:from-orange-900/20 dark:to-red-900/20 border border-orange-200 dark:border-orange-800 hover:shadow-lg transition-all duration-300">
               <div className="flex items-center gap-3 mb-4">
                 <Target className="w-5 h-5 text-orange-600 dark:text-orange-400" />
@@ -174,8 +161,6 @@ export default function About() {
                 </Badge>
               </div>
             </Card>
-
-            {/* Fun Facts Card */}
             <Card className="p-6 bg-gradient-to-br from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 border border-purple-200 dark:border-purple-800 hover:shadow-lg transition-all duration-300">
               <div className="flex items-center gap-3 mb-4">
                 <Coffee className="w-5 h-5 text-purple-600 dark:text-purple-400" />
@@ -198,8 +183,6 @@ export default function About() {
             </Card>
           </motion.div>
         </div>
-
-        {/* Achievement Stats */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -251,7 +234,7 @@ export default function About() {
               </div>
               <div className="text-left">
                 <h3 className="text-xl font-bold mb-1">Ready to collaborate?</h3>
-                <p className="text-blue-100">Let's create something amazing together</p>
+                <p className="text-blue-100">Let&apos;s create something amazing together</p>
               </div>
             </div>
           </Card>

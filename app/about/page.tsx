@@ -7,48 +7,18 @@ import {
   User, 
   Award, 
   Code, 
-  Brain,
   Target,
   Lightbulb,
   Coffee,
   BookOpen,
   Rocket,
   Star,
-  TrendingUp,
-  Heart
 } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'About Me – Sushil Sagar',
   description: 'Learn more about Sushil Sagar, a full-stack developer and ML enthusiast.',
 };
-
-const achievements = [
-  {
-    title: '15+ Projects',
-    description: 'Built and deployed',
-    icon: Code,
-    color: 'from-blue-500 to-cyan-500'
-  },
-  {
-    title: '3+ Years',
-    description: 'Development experience',
-    icon: TrendingUp,
-    color: 'from-green-500 to-emerald-500'
-  },
-  {
-    title: '25+ Technologies',
-    description: 'Worked with',
-    icon: Brain,
-    color: 'from-purple-500 to-violet-500'
-  },
-  {
-    title: 'Open Source',
-    description: 'Active contributor',
-    icon: Heart,
-    color: 'from-orange-500 to-red-500'
-  }
-];
 
 const values = [
   {
@@ -103,7 +73,7 @@ export default function AboutPage() {
             </div>
             
             <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold mb-6">
-              <span className="text-gray-900 dark:text-white">Hello, I'm </span>
+              <span className="text-gray-900 dark:text-white">Hello, I&apos;m </span>
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                 Sushil Sagar
               </span>
@@ -128,11 +98,11 @@ export default function AboutPage() {
 
                   <div className="prose prose-lg dark:prose-invert max-w-none">
                     <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-6">
-                      Hey! I'm <span className="font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Sushil Sagar</span>, a Computer Science undergraduate focused on building intelligent, scalable web systems. I specialize in full-stack development, machine learning integration, and clean, efficient architecture.
+                      Hey! I&apos;m <span className="font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Sushil Sagar</span>, a Computer Science undergraduate focused on building intelligent, scalable web systems. I specialize in full-stack development, machine learning integration, and clean, efficient architecture.
                     </p>
 
                     <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                      Passionate about open source, I'm constantly learning advanced AI tools and improving backend & DevOps skills. Driven by impact, I aim to engineer purposeful, production-ready solutions with clarity and precision.
+                      Passionate about open source, I&apos;m constantly learning advanced AI tools and improving backend &amp; DevOps skills. Driven by impact, I aim to engineer purposeful, production-ready solutions with clarity and precision.
                     </p>
                   </div>
                   <div className="pt-6 border-t border-gray-200 dark:border-gray-700">
@@ -160,7 +130,7 @@ export default function AboutPage() {
                     Full-Stack Development
                   </Badge>
                   <Badge className="bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple-300 border-purple-300 dark:border-purple-700">
-                    DevOps & Architecture
+                    DevOps &amp; Architecture
                   </Badge>
                 </div>
               </Card>

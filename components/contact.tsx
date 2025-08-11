@@ -1,8 +1,6 @@
 'use client';
-
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
 import { motion, Variants } from 'framer-motion';
 import { 
   Github, 
@@ -157,7 +155,7 @@ export default function Contact() {
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-          {contactMethods.map((method, index) => {
+          {contactMethods.map((method) => {
             const IconComponent = method.icon;
             return (
               <motion.div key={method.title} variants={itemVariants} className="group">
@@ -207,7 +205,7 @@ export default function Contact() {
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
           >
-            {socialLinks.map((social, index) => {
+            {socialLinks.map((social) => {
               const IconComponent = social.icon;
               return (
                 <motion.div key={social.name} variants={itemVariants} className="group">

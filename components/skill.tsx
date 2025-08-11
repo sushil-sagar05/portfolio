@@ -146,7 +146,7 @@ export default function Skills() {
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-          {skillCategories.map((category, index) => {
+          {skillCategories.map((category) => {
             const IconComponent = category.icon;
             return (
               <motion.div

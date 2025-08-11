@@ -299,7 +299,7 @@ export default function ProjectsPage() {
 
                   <CardContent className="flex flex-col gap-4 flex-1">
                     <div className="flex flex-wrap gap-2 flex-1">
-                      {project.tech.slice(0, 6).map((tag, index) => (
+                      {project.tech.slice(0, 6).map((tag) => (
                         <motion.span
                           key={tag}
                           className="px-3 py-1 text-xs rounded-full bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-gray-600 hover:border-blue-300 dark:hover:border-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-all cursor-default"
